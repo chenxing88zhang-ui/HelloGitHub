@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 # 指向 Poco install 路径
 set(CMAKE_PREFIX_PATH "C:/Poco/install")
@@ -36,6 +37,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         luahelper.h luahelper.cpp
+        dockwgt.h dockwgt.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET windowQt6 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -67,6 +69,7 @@ target_link_libraries(windowQt6 PRIVATE
     lua
 )
 target_link_libraries(windowQt6 PRIVATE Qt${QT_VERSION_MAJOR}::Core)
+target_link_libraries(windowQt6 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 # 如果是 DLL，构建后复制到可执行目录
 add_custom_command(TARGET windowQt6 POST_BUILD

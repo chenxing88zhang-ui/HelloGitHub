@@ -89,6 +89,16 @@ build CMakeFiles\windowQt6.dir\luahelper.cpp.obj: CXX_COMPILER__windowQt6_unscan
   TARGET_COMPILE_PDB = CMakeFiles\windowQt6.dir\
   TARGET_PDB = windowQt6.pdb
 
+build CMakeFiles\windowQt6.dir\dockwgt.cpp.obj: CXX_COMPILER__windowQt6_unscanned_Debug C$:\work_zcx\QtProject\windowQt6\dockwgt.cpp || cmake_object_order_depends_target_windowQt6
+  CONFIG = Debug
+  DEFINES = -DPOCO_CMAKE -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_OS_FAMILY_WINDOWS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DUTF8PROC_STATIC -DWIN32 -DWIN64 -DXML_DTD -DXML_GE -DXML_STATIC -D_DEBUG -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\work_zcx\QtProject\windowQt6\build\Desktop_Qt_6_10_0_MSVC2022_64bit-Debug\windowQt6_autogen\include -IC:\lua-5.4.8\src -external:IC:\Qt\Qt6\6.10.0\msvc2022_64\include\QtCore -external:IC:\Qt\Qt6\6.10.0\msvc2022_64\include -external:IC:\Qt\Qt6\6.10.0\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\Qt6\6.10.0\msvc2022_64\include\QtWidgets -external:IC:\Qt\Qt6\6.10.0\msvc2022_64\include\QtGui -external:IC:\Poco\install\include -external:W0
+  OBJECT_DIR = CMakeFiles\windowQt6.dir
+  OBJECT_FILE_DIR = CMakeFiles\windowQt6.dir
+  TARGET_COMPILE_PDB = CMakeFiles\windowQt6.dir\
+  TARGET_PDB = windowQt6.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target windowQt6
@@ -97,11 +107,11 @@ build CMakeFiles\windowQt6.dir\luahelper.cpp.obj: CXX_COMPILER__windowQt6_unscan
 #############################################
 # Link the executable windowQt6.exe
 
-build windowQt6.exe: CXX_EXECUTABLE_LINKER__windowQt6_Debug CMakeFiles\windowQt6.dir\windowQt6_autogen\mocs_compilation.cpp.obj CMakeFiles\windowQt6.dir\main.cpp.obj CMakeFiles\windowQt6.dir\mainwindow.cpp.obj CMakeFiles\windowQt6.dir\luahelper.cpp.obj | C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Poco\install\lib\PocoNetd.lib C$:\Poco\install\lib\PocoUtild.lib C$:\Poco\install\lib\PocoJSONd.lib C$:\Poco\install\lib\PocoXMLd.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6EntryPointd.lib C$:\Poco\install\lib\PocoFoundationd.lib || windowQt6_autogen windowQt6_autogen_timestamp_deps
+build windowQt6.exe: CXX_EXECUTABLE_LINKER__windowQt6_Debug CMakeFiles\windowQt6.dir\windowQt6_autogen\mocs_compilation.cpp.obj CMakeFiles\windowQt6.dir\main.cpp.obj CMakeFiles\windowQt6.dir\mainwindow.cpp.obj CMakeFiles\windowQt6.dir\luahelper.cpp.obj CMakeFiles\windowQt6.dir\dockwgt.cpp.obj | C$:\Poco\install\lib\PocoNetd.lib C$:\Poco\install\lib\PocoUtild.lib C$:\Poco\install\lib\PocoJSONd.lib C$:\Poco\install\lib\PocoXMLd.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6EntryPointd.lib C$:\Poco\install\lib\PocoFoundationd.lib || windowQt6_autogen windowQt6_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
-  LINK_LIBRARIES = C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Widgetsd.lib  C:\Poco\install\lib\PocoNetd.lib  C:\Poco\install\lib\PocoUtild.lib  C:\Poco\install\lib\PocoJSONd.lib  C:\Poco\install\lib\PocoXMLd.lib  lua.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Guid.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  iphlpapi.lib  ws2_32.lib  C:\Poco\install\lib\PocoFoundationd.lib  iphlpapi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Poco\install\lib\PocoNetd.lib  C:\Poco\install\lib\PocoUtild.lib  C:\Poco\install\lib\PocoJSONd.lib  C:\Poco\install\lib\PocoXMLd.lib  lua.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Widgetsd.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Guid.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  C:\Qt\Qt6\6.10.0\msvc2022_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  iphlpapi.lib  ws2_32.lib  C:\Poco\install\lib\PocoFoundationd.lib  iphlpapi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   LINK_PATH = -LIBPATH:C:\lua-5.4.8\lib_64
   OBJECT_DIR = CMakeFiles\windowQt6.dir
   POST_BUILD = C:\windows\system32\cmd.exe /C "cd /D C:\work_zcx\QtProject\windowQt6\build\Desktop_Qt_6_10_0_MSVC2022_64bit-Debug && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Poco/install/bin/PocoFoundationd.dll C:/Poco/install/bin/PocoNetd.dll C:/Poco/install/bin/PocoUtild.dll C:/lua-5.4.8/lib_64/lua.dll C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug"

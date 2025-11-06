@@ -58,7 +58,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 35,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -82,25 +82,25 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 96,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 58,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 61,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
@@ -296,7 +296,7 @@
 			{
 				"command" : 9,
 				"file" : 1,
-				"line" : 20,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
@@ -376,7 +376,7 @@
 			{
 				"command" : 12,
 				"file" : 1,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -405,19 +405,19 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "POCO_CMAKE"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "POCO_ENABLE_CPP11"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "POCO_ENABLE_CPP14"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "POCO_OS_FAMILY_WINDOWS"
 				},
 				{
@@ -425,11 +425,11 @@
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"define" : "QT_WIDGETS_LIB"
 				},
 				{
@@ -437,7 +437,7 @@
 					"define" : "UNICODE"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "UTF8PROC_STATIC"
 				},
 				{
@@ -449,19 +449,19 @@
 					"define" : "WIN64"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "XML_DTD"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "XML_GE"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "XML_STATIC"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "_DEBUG"
 				},
 				{
@@ -503,17 +503,17 @@
 					"path" : "C:/Qt/Qt6/6.10.0/msvc2022_64/mkspecs/win32-msvc"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtGui"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "C:/Poco/install/include"
 				}
@@ -525,8 +525,8 @@
 				[
 					15,
 					15,
-					8,
-					8
+					7,
+					7
 				],
 				"standard" : "17"
 			},
@@ -535,18 +535,19 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "windowQt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "windowQt6_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "windowQt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "windowQt6::@6890427a1f51a3e7e1df",
@@ -587,32 +588,32 @@
 			},
 			{
 				"backtrace" : 7,
-				"fragment" : "C:\\Qt\\Qt6\\6.10.0\\msvc2022_64\\lib\\Qt6Widgetsd.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 8,
 				"fragment" : "C:\\Poco\\install\\lib\\PocoNetd.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 7,
 				"fragment" : "C:\\Poco\\install\\lib\\PocoUtild.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 7,
 				"fragment" : "C:\\Poco\\install\\lib\\PocoJSONd.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 7,
 				"fragment" : "C:\\Poco\\install\\lib\\PocoXMLd.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 7,
 				"fragment" : "lua.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\Qt\\Qt6\\6.10.0\\msvc2022_64\\lib\\Qt6Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
@@ -676,7 +677,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 7,
 				"fragment" : "C:\\Poco\\install\\lib\\PocoFoundationd.lib",
 				"role" : "libraries"
 			},
@@ -708,7 +709,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		},
 		{
@@ -717,7 +719,8 @@
 			[
 				3,
 				5,
-				7
+				7,
+				9
 			]
 		},
 		{
@@ -731,14 +734,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				8
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				9
+				11
 			]
 		}
 	],
@@ -782,6 +785,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "luahelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dockwgt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dockwgt.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
