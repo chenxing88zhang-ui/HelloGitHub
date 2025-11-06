@@ -11,12 +11,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 # 指向 Poco install 路径
 set(CMAKE_PREFIX_PATH "C:/Poco/install")
 
 # 查找 Poco 库
 find_package(Poco REQUIRED COMPONENTS Foundation Net Util JSON XML)
+
+# Lua
+include_directories("C:/lua-5.4.8/src")
+link_directories("C:/lua-5.4.8/lib_64")
 
 
 set(PROJECT_SOURCES
@@ -30,6 +35,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(windowQt6
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        luahelper.h luahelper.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET windowQt6 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -58,7 +64,9 @@ target_link_libraries(windowQt6 PRIVATE
     Poco::Util
     Poco::JSON
     Poco::XML
+    lua
 )
+target_link_libraries(windowQt6 PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 
 # 如果是 DLL，构建后复制到可执行目录
 add_custom_command(TARGET windowQt6 POST_BUILD
@@ -66,6 +74,7 @@ add_custom_command(TARGET windowQt6 POST_BUILD
     "C:/Poco/install/bin/PocoFoundationd.dll"
     "C:/Poco/install/bin/PocoNetd.dll"
     "C:/Poco/install/bin/PocoUtild.dll"
+    "C:/lua-5.4.8/lib_64/lua.dll"
     $<TARGET_FILE_DIR:windowQt6>
 )
 
