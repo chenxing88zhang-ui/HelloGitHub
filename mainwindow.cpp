@@ -54,7 +54,7 @@ QString getFirstLocalIPAddress()
 
 void tcpServer() {
     //QString addr = getFirstLocalIPAddress() ;
-    Poco::Net::SocketAddress sa("0.0.0.0", 12345);
+    Poco::Net::SocketAddress sa("192.168.182.255", 12345);
     Poco::Net::ServerSocket server(sa);
 
     std::cout << "TCP server started on port 12345" << std::endl;
@@ -149,8 +149,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    //tcpServer() ;
-    //tcpClient();
 
     QString str = getFirstLocalIPAddress() ;
 
