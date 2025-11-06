@@ -1,0 +1,8 @@
+# ninja log v6
+6	615	7841520783943344	windowQt6_autogen/timestamp	2356be5889b619f
+6	615	7841520783943344	windowQt6_autogen/mocs_compilation.cpp	2356be5889b619f
+6	615	7841520783943344	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/windowQt6_autogen/timestamp	2356be5889b619f
+6	615	7841520783943344	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/windowQt6_autogen/mocs_compilation.cpp	2356be5889b619f
+622	2156	7841520784638811	CMakeFiles/windowQt6.dir/main.cpp.obj	5a2f4ac1c4eb5c46
+619	2242	7841520784608866	CMakeFiles/windowQt6.dir/windowQt6_autogen/mocs_compilation.cpp.obj	8c3b503e299e2144
+625	3531	7841520784678913	CMakeFiles/windowQt6.dir/mainwindow.cpp.obj	5d7f144a0377b067

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-268f4d40d4f42b6fc9e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "windowQt6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "windowQt6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-windowQt6-Debug-003cb7729241c1ea2513.json",
+					"name" : "windowQt6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "windowQt6_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-windowQt6_autogen-Debug-89421cfecaed281b2dca.json",
+					"name" : "windowQt6_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "windowQt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-windowQt6_autogen_timestamp_deps-Debug-bf884d0d0261a5015b64.json",
+					"name" : "windowQt6_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug",
+		"source" : "C:/work_zcx/QtProject/windowQt6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

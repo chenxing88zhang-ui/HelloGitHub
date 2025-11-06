@@ -1,0 +1,24 @@
+# ninja log v6
+34	56	7841475845635122	CMakeFiles/clean.additional	9377104310d8a2a4
+70	714	7841476737492758	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/cmake_install.cmake	763951b578f85d9d
+72	724	7841475906035260	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/windowQt6_autogen/mocs_compilation.cpp	a86dadaa1c146d9c
+56	69	7841475845853599	clean	ca20ad35778315c3
+70	714	7841476737552714	build.ninja	763951b578f85d9d
+72	724	7841475906035260	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/windowQt6_autogen/timestamp	a86dadaa1c146d9c
+72	724	7841475906035260	windowQt6_autogen/timestamp	a86dadaa1c146d9c
+72	724	7841475906035260	windowQt6_autogen/mocs_compilation.cpp	a86dadaa1c146d9c
+726	2994	7841475906860459	CMakeFiles/windowQt6.dir/windowQt6_autogen/mocs_compilation.cpp.obj	6ee7a5cb90786d70
+731	2960	7841475906910448	CMakeFiles/windowQt6.dir/main.cpp.obj	b71f801d72be6d3e
+736	3628	7841475906970473	CMakeFiles/windowQt6.dir/mainwindow.cpp.obj	19510776349d0a56
+2217	2369	7841457123149965	windowQt6.exe	56dc3316e930e333
+64	683	7841476737552714	build.ninja	763951b578f85d9d
+64	683	7841476737552714	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/cmake_install.cmake	763951b578f85d9d
+29	49	7841476739386775	CMakeFiles/clean.additional	9377104310d8a2a4
+50	62	7841476739584802	clean	ca20ad35778315c3
+64	730	7841476783655737	windowQt6_autogen/timestamp	a86dadaa1c146d9c
+64	730	7841476783655737	windowQt6_autogen/mocs_compilation.cpp	a86dadaa1c146d9c
+64	730	7841476783655737	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/windowQt6_autogen/timestamp	a86dadaa1c146d9c
+64	730	7841476783655737	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Release/windowQt6_autogen/mocs_compilation.cpp	a86dadaa1c146d9c
+731	2808	7841476784578938	CMakeFiles/windowQt6.dir/windowQt6_autogen/mocs_compilation.cpp.obj	6ee7a5cb90786d70
+737	2885	7841476784628934	CMakeFiles/windowQt6.dir/main.cpp.obj	b71f801d72be6d3e
+742	3516	7841476784683950	CMakeFiles/windowQt6.dir/mainwindow.cpp.obj	19510776349d0a56
