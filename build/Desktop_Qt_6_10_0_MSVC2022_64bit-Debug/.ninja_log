@@ -72,3 +72,14 @@
 157	452	7841670767676332	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/windowQt6_autogen/mocs_compilation.cpp	73f0a9101edfacd3
 454	3388	7841670770659850	CMakeFiles/windowQt6.dir/mainwindow.cpp.obj	a7854c2fb122c1cb
 3388	4889	7841670800006330	windowQt6.exe	510a711fd98cbe6d
+12	70	7841698871561256	CMakeFiles/clean.additional	cee7e56548ea36fa
+70	86	7841698872139544	clean	ca20ad35778315c3
+55	7290	7841698945324777	windowQt6_autogen/timestamp	73f0a9101edfacd3
+55	7290	7841698945324777	windowQt6_autogen/mocs_compilation.cpp	73f0a9101edfacd3
+55	7290	7841698945324777	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/windowQt6_autogen/timestamp	73f0a9101edfacd3
+55	7290	7841698945324777	C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/windowQt6_autogen/mocs_compilation.cpp	73f0a9101edfacd3
+7305	8276	7841698946173620	CMakeFiles/windowQt6.dir/luahelper.cpp.obj	f0f0b1a9d41c72d2
+7291	9421	7841698946035042	CMakeFiles/windowQt6.dir/windowQt6_autogen/mocs_compilation.cpp.obj	b8e4343934e9c663
+7295	9469	7841698946075061	CMakeFiles/windowQt6.dir/main.cpp.obj	ab2a3dec527a47c3
+7300	9985	7841698946129918	CMakeFiles/windowQt6.dir/mainwindow.cpp.obj	a7854c2fb122c1cb
+9985	10823	7841698972973619	windowQt6.exe	510a711fd98cbe6d
