@@ -10,6 +10,8 @@ extern "C"
 #include <lua.h>
 #include <lauxlib.h>
 #include <lualib.h>
+
+#pragma comment(lib, "lua.lib")
 }
 
 class LuaHelper

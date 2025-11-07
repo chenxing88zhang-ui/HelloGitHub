@@ -444,6 +444,6 @@ C:/work_zcx/QtProject/windowQt6/mainwindow.h
  mdp:C:/work_zcx/QtProject/windowQt6/mainwindow.h
 C:/work_zcx/QtProject/windowQt6/dockwgt.cpp
 C:/work_zcx/QtProject/windowQt6/luahelper.cpp
-C:/work_zcx/QtProject/windowQt6/main.cpp
 C:/work_zcx/QtProject/windowQt6/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/work_zcx/QtProject/windowQt6/main.cpp
