@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "dockwgt.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -21,6 +22,11 @@ private slots:
     void on_pushButton_clicked();
 
 private:
+    void initDockWgt() ;
+
+private:
     Ui::MainWindow *ui;
+
+    QList<DockWgt*> m_dockList ;
 };
 #endif // MAINWINDOW_H

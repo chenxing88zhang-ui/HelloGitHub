@@ -208,11 +208,14 @@ C:/work_zcx/QtProject/windowQt6/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/win
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtGui/qtransform.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtGui/qwindowdefs.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/QDockWidget \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/QMainWindow \
+  C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qwidget.h
+  C:/Qt/Qt6/6.10.0/msvc2022_64/include/QtWidgets/qwidget.h \
+  C:/work_zcx/QtProject/windowQt6/dockwgt.h

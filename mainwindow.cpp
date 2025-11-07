@@ -135,10 +135,12 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    resize(400,300);
+    resize(800,600);
 
     stringExample();
     datetimeExample();
+
+    initDockWgt() ;
 
 }
 
@@ -147,11 +149,29 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
 void MainWindow::on_pushButton_clicked()
 {
 
     QString str = getFirstLocalIPAddress() ;
 
     ui->label_Ip->setText(str);
+}
+
+
+void MainWindow::initDockWgt()
+{
+    for(int i=0 ;i<4;i++)
+    {
+        DockWgt *dockWin = new DockWgt(this,QString("dock%1").arg(i)) ;
+        m_dockList.append(dockWin);
+    }
+
+    addDockWidget(Qt::LeftDockWidgetArea,m_dockList.at(0)) ;
+    addDockWidget(Qt::TopDockWidgetArea,m_dockList.at(1)) ;
+    addDockWidget(Qt::RightDockWidgetArea,m_dockList.at(2)) ;
+    addDockWidget(Qt::BottomDockWidgetArea,m_dockList.at(3)) ;
+
+    splitDockWidget(m_dockList.at(0),m_dockList.at(1),Qt::Horizontal);
 }
 
